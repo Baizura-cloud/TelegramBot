@@ -1,6 +1,6 @@
-var token = "5173676480:AAGlC9EdHHZxKKNRuqSxnJLtCAyIh95t2nQ";
+var token = "";  // Telegram Token
 var telegramUrl = "https://api.telegram.org/bot" + token;
-var webAppUrl = "https://script.google.com/macros/s/AKfycbzulvvKUFmhs-UiYeCJs8a7Uvr009286yjopnutRbS6ZwYOmmY/exec";
+var webAppUrl = ""; // Published WebApp URL
 
 function setWebhook() {
 var url = telegramUrl + "/setWebhook?url=" + webAppUrl;
@@ -55,8 +55,8 @@ function doPost(e){
   
 try{
  var contents = JSON.parse(e.postData.contents);
- var ssId = "1AGImCfPh51Kyj2oerJ3a-HSnVxM-_ByxpQWskKijoFA"
- var sheet =SpreadsheetApp.openById(ssId).getSheetByName("Daily Finances");
+ var ssId = ""  // Google Sheet Id
+ var sheet =SpreadsheetApp.openById(ssId).getSheetByName("Daily Finances"); // Google Sheet Name
  var nowDate = new Date();
  var date = nowDate.getMonth()+1+'/'+nowDate.getDate(); 
   
