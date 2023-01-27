@@ -12,4 +12,4 @@ The telegram bot:
 ![Telegram Bot](https://user-images.githubusercontent.com/53967791/159822929-97c0a993-475b-4dc4-9cf3-7eb4543d13b4.PNG)
 
 
-Contact BotFather through Telegram create an empty bot and get the Telegram token, replace the Telegram token, plubished webapp url, Google Sheet Id and Google Sheet Name.
+Contact "BotFather" through Telegram, create an empty bot and get the Telegram token, replace the Telegram token, published webapp url, Google Sheet Id and Google Sheet Name in the code.
